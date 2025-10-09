@@ -32,5 +32,10 @@ def get_starwars_warriors():
 
 @app.get("/warriorsGOT")
 def get_warriors_got():
-    rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
+    rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark"]
+    return rows
+
+@app.get("/cursosPlatzi")
+def get_cursos();
+    rows = ["Docker", "Bash", "Linux", "Inglés"]
     return rows
